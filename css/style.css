@@ -1,40 +1,178 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 
 }
-html, body{
+
+html, body {
     font-family: 'Old Standard TT', 'sans-serif';
     font-style: normal;
     font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
     background-color: #171511;
 }
-.bgc{
 
-}
 h1, h2, h3 {
     color: rgba(255, 174, 43, 1);
 }
-span, p{
+h1{
+    font-size: 5rem;
+    line-height: 5.7rem;
+    color: white;
+}
+h2{
+    font-size: 4.2rem;
+    line-height: 5rem;
+}
+
+span, p {
     color: rgba(172, 165, 146, 1);
 }
-.first{
+
+.btn-header {
+    border: 1px solid #FFAE2B;
+    color: #FFAE2B;
+    border-radius: 0;
+}
+
+.first {
+    height: 65vh;
     background-image: url("../images/sec-1.png");
     background-repeat: no-repeat;
     background-size: cover;
-    /*background-size: contain;*/
+    background-position: center center;
 }
-.item{
+.first p{
+    color: #FFAE2B;
+    text-shadow: 1px 1px 1px black;
+}
+.first h1{
+    text-shadow: 1px 1px 1px black;
+}
+
+.item {
     background-color: #171511;
+    border: 1px solid #4B4136;
+    text-align: center;
 }
-.item img{
+
+.item img {
     filter: drop-shadow(0px 8px 24px rgba(0, 0, 0, 0.6));
 }
-.nav-link{
+
+.item p {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.navbar-dark .navbar-brand {
+    color: #FFAE2B;
+}
+
+.navbar-dark .nav-link {
     color: #ACA592;
 }
-.section-5 .col{
-    padding: 0;
-    padding-left: 1px;
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #FFAE2B;
 }
+
+.section-1 .btn, .insta-follow .btn {
+    background-color: #FFAE2B;
+    color: black;
+}
+
+.section {
+    padding-bottom: 8.6em;
+}
+
+.section-2, .section-3 {
+    padding-top: 8.6em;
+}
+
+.services .col-4 {
+    height: 25em;
+    border: 1px solid #4B4136;
+}
+
+.services span {
+    font-size: 0.8rem;
+}
+
+.section-5 .col {
+    padding: 0 0 0 1px;
+}
+
+.insta-follow {
+    background-image: url("../images/insta-big.svg");
+    top: 20%;
+    left: 16%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.subscribe {
+    background-color: #171511;
+    border: 1px solid #FFAE2B;
+}
+.section-6 span, a{
+    color: #FFAE2B;
+}
+.subscribe-header{
+    margin-bottom: 5.85em;
+}
+.subscribe .btn{
+    color: #FFAE2B;
+}
+
+.subscribe:hover{
+    background-color: #FFAE2B;
+}
+.subscribe:hover .btn{
+    color: black;
+}
+footer ul{
+    list-style: none;
+    color: #FFAE2B;
+}
+footer span{
+    color: #FFAE2B;
+}
+footer li{
+    border-right: 1px solid #4B4136;
+}
+footer a{
+    text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+    html body{
+        font-size: 12px;
+        line-height: 24px;
+    }
+    h1{
+        font-size: 3.5rem;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    h3{
+        font-size: 3rem;
+    }
+}
+@media  screen and (max-width: 510px){
+    html body{
+        font-size: 11px;
+        line-height: 22px;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 2.5rem;
+    }
+    h3{
+        font-size: 2.3rem;
+    }
+}
+
