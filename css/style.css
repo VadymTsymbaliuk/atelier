@@ -209,6 +209,7 @@ footer span {
 
 footer li {
     border-right: 1px solid #4B4136;
+    white-space: nowrap;
 }
 
 footer a {
