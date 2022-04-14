@@ -8,4 +8,33 @@ html, body{
     font-family: 'Old Standard TT', 'sans-serif';
     font-style: normal;
     font-weight: 400;
+    background-color: #171511;
+}
+.bgc{
+
+}
+h1, h2, h3 {
+    color: rgba(255, 174, 43, 1);
+}
+span, p{
+    color: rgba(172, 165, 146, 1);
+}
+.first{
+    background-image: url("../images/sec-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-size: contain;*/
+}
+.item{
+    background-color: #171511;
+}
+.item img{
+    filter: drop-shadow(0px 8px 24px rgba(0, 0, 0, 0.6));
+}
+.nav-link{
+    color: #ACA592;
+}
+.section-5 .col{
+    padding: 0;
+    padding-left: 1px;
 }
