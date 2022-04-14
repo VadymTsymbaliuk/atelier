@@ -17,12 +17,14 @@ html, body {
 h1, h2, h3 {
     color: rgba(255, 174, 43, 1);
 }
-h1{
+
+h1 {
     font-size: 5rem;
     line-height: 5.7rem;
     color: white;
 }
-h2{
+
+h2 {
     font-size: 4.2rem;
     line-height: 5rem;
 }
@@ -44,11 +46,13 @@ span, p {
     background-size: cover;
     background-position: center center;
 }
-.first p{
+
+.first p {
     color: #FFAE2B;
     text-shadow: 1px 1px 1px black;
 }
-.first h1{
+
+.first h1 {
     text-shadow: 1px 1px 1px black;
 }
 
@@ -92,7 +96,7 @@ span, p {
     padding-top: 8.6em;
 }
 
-.services .col-4 {
+.services div {
     height: 25em;
     border: 1px solid #4B4136;
 }
@@ -104,74 +108,151 @@ span, p {
 .section-5 .col {
     padding: 0 0 0 1px;
 }
+.section-5 .follow-container{
+    min-height: 170px;
+    min-width: 170px;
+}
 
 .insta-follow {
     background-image: url("../images/insta-big.svg");
     top: 20%;
     left: 16%;
     background-size: contain;
+    background-position: center center;
     background-repeat: no-repeat;
 }
+.insta-icon:before{
+    content: '';
+    position: absolute;
+    top: -25px;
+    background-image: url("../images/sec-5_img-before.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+
 .subscribe {
     background-color: #171511;
     border: 1px solid #FFAE2B;
 }
-.section-6 span, a{
-    color: #FFAE2B;
+
+.section-6 .btn {
+    height: 4em;
+    width: 4em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: inherit;
 }
-.subscribe-header{
-    margin-bottom: 5.85em;
+
+.fb {
+    background-image: url("../images/sec-6_img-1.svg");
 }
-.subscribe .btn{
+
+.twitter {
+    background-image: url("../images/sec-6_img-2.svg");
+}
+
+.instagram {
+    background-image: url("../images/sec-6_img-3.svg");
+}
+
+.linkedin {
+    background-image: url("../images/sec-6_img-4.svg");
+}
+
+button.btn.fb:hover {
+    border: 1px solid #FFAE2B !important;
+}
+
+button.btn.instagram:hover {
+    border: 1px solid #FFAE2B !important;
+}
+
+button.btn.twitter:hover {
+    border: 1px solid #FFAE2B !important;
+}
+
+button.btn.linkedin:hover {
+    border: 1px solid #FFAE2B !important;
+}
+
+.section-6 span, a {
     color: #FFAE2B;
 }
 
-.subscribe:hover{
+.subscribe-header {
+    margin-bottom: 5.85em;
+}
+
+.subscribe .btn {
+    color: #FFAE2B;
+}
+
+.subscribe:hover {
     background-color: #FFAE2B;
 }
-.subscribe:hover .btn{
+
+.subscribe:hover .btn {
     color: black;
 }
-footer ul{
+
+footer ul {
     list-style: none;
     color: #FFAE2B;
 }
-footer span{
+
+footer span {
     color: #FFAE2B;
 }
-footer li{
+
+footer li {
     border-right: 1px solid #4B4136;
 }
-footer a{
+
+footer a {
     text-decoration: none;
 }
+
 @media screen and (max-width: 768px) {
-    html body{
+    html body {
         font-size: 12px;
         line-height: 24px;
     }
-    h1{
+
+    h1 {
         font-size: 3.5rem;
     }
-    h2{
+
+    h2 {
         font-size: 3rem;
     }
-    h3{
+
+    h3 {
         font-size: 3rem;
+    }
+    .insta-follow {
+        top: 30%;
+        left: 28%;
     }
 }
-@media  screen and (max-width: 510px){
-    html body{
+
+@media screen and (max-width: 510px) {
+    html body {
         font-size: 11px;
         line-height: 22px;
     }
-    h1{
+
+    h1 {
         font-size: 3rem;
     }
-    h2{
+
+    h2 {
         font-size: 2.5rem;
     }
-    h3{
+
+    h3 {
         font-size: 2.3rem;
     }
 }
