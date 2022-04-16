@@ -83,7 +83,7 @@ span, p {
     color: #FFAE2B;
 }
 
-.section-1 .btn, .insta-follow .btn {
+.section-1 .btn{
     background-color: #FFAE2B;
     color: black;
 }
@@ -108,20 +108,30 @@ span, p {
 .section-5 .col {
     padding: 0 0 0 1px;
 }
-.section-5 .follow-container{
+
+.section-5 .follow-container {
     min-height: 170px;
     min-width: 170px;
 }
+.section-5 .btn{
+    background-color: #FFAE2B;
+}
+.section-5 a{
+    color: black;
+    text-decoration: none;
+}
+
 
 .insta-follow {
     background-image: url("../images/insta-big.svg");
     top: 20%;
-    left: 16%;
+    left: 25%;
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
 }
-.insta-icon:before{
+
+.insta-icon:before {
     content: '';
     position: absolute;
     top: -25px;
@@ -215,6 +225,12 @@ footer li {
 footer a {
     text-decoration: none;
 }
+@media screen and (max-width: 1024px) {
+    .insta-follow {
+        top: 30%;
+        left: 15%;
+    }
+}
 
 @media screen and (max-width: 768px) {
     html body {
@@ -233,13 +249,14 @@ footer a {
     h3 {
         font-size: 3rem;
     }
+
     .insta-follow {
-        top: 30%;
+        top: 20%;
         left: 28%;
     }
 }
 
-@media screen and (max-width: 510px) {
+@media screen and (max-width: 425px) {
     html body {
         font-size: 11px;
         line-height: 22px;
@@ -255,6 +272,16 @@ footer a {
 
     h3 {
         font-size: 2.3rem;
+    }
+    .insta-follow {
+        top: 20%;
+        left: 28%;
+    }
+}
+@media screen and (max-width: 375px) {
+    .insta-follow {
+        top: 20%;
+        left: 25%;
     }
 }
 
